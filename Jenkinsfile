@@ -2,10 +2,10 @@ pipeline {
     agent any
  
     environment {
-        REGISTRY = 'user12.azurecr.io'
+        REGISTRY = 'user12registry.azurecr.io'
         IMAGE_NAME = 'product'
         AKS_CLUSTER = 'user12-aks'
-        RESOURCE_GROUP = 'user12registry-rsrcgrp'
+        RESOURCE_GROUP = 'user12-rsrcgrp'
         AKS_NAMESPACE = 'default'
         AZURE_CREDENTIALS_ID = 'Azure-Cred'
         TENANT_ID = '29d166ad-94ec-45cb-9f65-561c038e1c7a' // Service Principal 등록 후 생성된 ID
