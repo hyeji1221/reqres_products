@@ -1,6 +1,6 @@
 pipeline {
     agent any
-
+ 
     environment {
         REGISTRY = 'user12.azurecr.io'
         IMAGE_NAME = 'product'
